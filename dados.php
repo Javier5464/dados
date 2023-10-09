@@ -109,16 +109,16 @@
     <h3>Jugador 1 </h3> <h4><?php echo $r1 ?> puntos</h4>
     <?php
         for($i=0;$i<5;$i++){
-            echo $j1[$i];
+            echo '<span style="font-size: 70px; background-color: red"">' . $j2[$i] . '</span>';
         }
     ?>
     <h3>Jugador 2 </h3> <h4><?php echo $r2 ?> puntos</h4>
     <?php
         for($i=0;$i<5;$i++){
-            echo $j2[$i];
+            echo '<span style="font-size: 70px; background-color: blue">' . $j2[$i] . '</span>';
         }
     ?>
     <h3>Resultado</h3>  <?php echo ganador($r1,$r2,$msg) ?>
-
+    
 </body>
 </html>
